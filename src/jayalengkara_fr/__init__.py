@@ -10,8 +10,7 @@ accelerated and parallelized with Numba.
 """
 
 __version__ = "0.0.1"
-__author__ = ("Sandy H. S. Herho, Sito F. Biosa, Dasapta E. Irawan, "
-              "Rusmawan Suwarman, Deny J. Puradimaja")
+__author__ = "Sandy H. S. Herho"
 __license__ = "MIT"
 
 from .core.models import FisherRaoModel, CASE_KINDS
