@@ -1,0 +1,31 @@
+# Case 1: Gaussian Manifold as the Hyperbolic Plane
+# =================================================
+# The univariate Gaussian family carries the Fisher-Rao metric
+#   ds^2 = (d mu^2 + 2 d sigma^2) / sigma^2,
+# the upper half-plane metric of constant curvature K = -1/2. The modular group
+# PSL(2, Z) tiles the plane; the orbit is generated in exact integer arithmetic.
+
+scenario_name = Case 1 - Gaussian Hyperbolic
+case_type = gaussian_hyperbolic
+
+# Geometry
+max_tiles = 160
+edge_samples = 48
+field_res = 220
+
+# Parallelism and output
+n_cores = 0
+output_dir = outputs
+save_netcdf = true
+save_csv = true
+save_animation = true
+save_diagnostics = true
+
+# Animation
+n_frames = 120
+fps = 30
+dpi = 150
+colormap = jl_aurora
+marker_size = 8
+alpha = 0.85
+seed = 42

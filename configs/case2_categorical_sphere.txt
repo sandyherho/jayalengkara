@@ -1,0 +1,32 @@
+# Case 2: Categorical Manifold as the Sphere
+# ==========================================
+# The probability simplex with the Fisher metric ds^2 = sum_i d p_i^2 / p_i is
+# isometric under p -> 2 sqrt(p) to the positive octant of the radius-2 sphere,
+# of constant curvature K = +1/4. The octant is tiled by geodesic subdivision.
+
+scenario_name = Case 2 - Categorical Sphere
+case_type = categorical_sphere
+
+# Geometry
+subdivision_depth = 3
+edge_samples = 24
+n_sample_geodesics = 4
+n_orbit_points = 28
+field_res = 200
+
+# Parallelism and output
+n_cores = 0
+output_dir = outputs
+save_netcdf = true
+save_csv = true
+save_animation = true
+save_diagnostics = true
+
+# Animation
+n_frames = 120
+fps = 30
+dpi = 150
+colormap = jl_nacre
+marker_size = 8
+alpha = 0.85
+seed = 42

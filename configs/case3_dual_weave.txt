@@ -1,0 +1,41 @@
+# Case 3: The Dually Flat Weave
+# =============================
+# The Gaussian exponential family carries a dually flat structure: natural
+# coordinates theta and expectation coordinates eta. e-geodesics are straight in
+# theta, m-geodesics are straight in eta, and the generalized Pythagorean theorem
+# links the canonical divergences of a dual-orthogonal triple to machine
+# precision.
+
+scenario_name = Case 3 - Dual Weave
+case_type = dual_weave
+
+# Geometry
+n_lines = 9
+line_samples = 60
+P_mu = -1.0
+P_sigma = 0.7
+
+# Q travels a closed loop centred at (Q_mu, Q_sigma); the triple, both geodesic
+# legs, and the divergence field evolve with it over one cycle.
+Q_mu = 0.6
+Q_sigma = 1.1
+loop_mu_amp = 0.9
+loop_sigma_amp = 0.35
+field_res = 140
+
+# Parallelism and output
+n_cores = 0
+output_dir = outputs
+save_netcdf = true
+save_csv = true
+save_animation = true
+save_diagnostics = true
+
+# Animation
+n_frames = 120
+fps = 30
+dpi = 150
+colormap = jl_duality
+marker_size = 8
+alpha = 0.85
+seed = 42
