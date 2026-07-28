@@ -1,5 +1,7 @@
 # `jayalengkara`: Fisher-Rao Information Geometry as a Computational Medium
 
+
+[![DOI](https://zenodo.org/badge/1310740554.svg)](https://doi.org/10.5281/zenodo.21636600)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyPI](https://img.shields.io/pypi/v/jayalengkara.svg)](https://pypi.org/project/jayalengkara/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
